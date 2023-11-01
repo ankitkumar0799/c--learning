@@ -21,11 +21,15 @@ int main()
 
 
 
-int p;
-cout<<"enter the cost of a product : ";
-cin>>p;
+int a,b,c;
+cout<<"enter the 1st side : ";
+cin>>a;
+cout<<"enter the 2st side : ";
+cin>>b;
+cout<<"enter the 3st side : ";
+cin>>c;
 
-if (p%5 == 0 && p%3 == 0)
+if ((a+b) > c && (b+c) > a && (c+a) > b)
 {
     cout<<"yes";
 }else{
