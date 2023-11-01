@@ -2,8 +2,8 @@
 using namespace std;
 int main(){
     
-   char ch[20];
+   char ch;
     cin>>ch;
-    cout<<"the number is"<<ch;
+    cout<<(int)ch;
     return 0;
 } 
