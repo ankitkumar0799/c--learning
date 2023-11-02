@@ -7,7 +7,7 @@ int main()
     cin>>num1;
     cout<<"enter the 2st number";
     cin>>num2;
-    int sum = num1+num2
+    int sum = num1+num2;
     cout<<"THE SUM OF "<<num1<<" and "<<num2<<" is "<<sum;
 
 
